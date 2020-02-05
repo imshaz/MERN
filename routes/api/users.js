@@ -5,7 +5,7 @@ const router = express.Router();
 //@route   get api/users
 //@desc    get list of users 
 //@access   public    
-router.get('/', (req, res) => {
+router.get('/', (request, response) => {
     res.send("get users")
 })
 
